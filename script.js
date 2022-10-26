@@ -10,4 +10,8 @@ document.getElementById("btn__element").addEventListener("click", () => {
   let clicks = click++;
 
   document.getElementById("btn__state").textContent = clicks;
+
+  if (clicks > 4) {
+    alert("užtenka click`inti, einam prie sekančio :)");
+  }
 });
